@@ -51,7 +51,7 @@ If you want RxNotify to replace your framework's default notifications:
 3. Restart your server
 
 ## 📚 Documentation
-Full documentation available at: [RX Scripts Docs](https://docs.rxscripts.xyz/scripts/free/notify)
+Full documentation available at: [RX Scripts Docs](https://docs.rxscripts.xyz/scripts/free/notify-system/installation)
 
 ### Client Exports
 ```lua
