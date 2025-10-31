@@ -1,0 +1,62 @@
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/kanit/Kanit-Thin.woff2") format("woff2");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/kanit/Kanit-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/kanit/Kanit-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/kanit/Kanit-SemiBold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/kanit/Kanit-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/kanit/Kanit-ExtraBold.woff2") format("woff2");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Kanit";
+  src: url("../fonts/kanit/Kanit-Black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  overflow: hidden !important;
+  color-scheme: none !important;
+  font: inherit;
+  font-size: 100%;
+  font-family: 'Kanit', system-ui, -apple-system, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.hidden {
+  display: none !important;
+}
