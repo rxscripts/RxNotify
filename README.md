@@ -46,9 +46,11 @@ If you want RxNotify to replace your framework's default notifications:
 3. Restart your server
 
 #### QBox
-1. Copy `[INSTALLATION]/QBox/rxnotify.lua` to your `qbx_core` folder
-2. Add `client_script 'rxnotify.lua'` at the **bottom** of `qbx_core/fxmanifest.lua`
-3. Restart your server
+1. Open `qbx_core/server/functions.lua`
+2. Replace the `Notify` function with the code in `rxnotify_server.lua`
+3. Open `qbx_core/client/functions.lua`
+4. Replace the `Notify` function with the code in `rxnotify_client.lua`
+5. Restart your server
 
 ## 📚 Documentation
 Full documentation available at: [RX Scripts Docs](https://docs.rxscripts.xyz/scripts/free/notify-system/installation)
