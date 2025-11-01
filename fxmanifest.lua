@@ -7,7 +7,7 @@ games { 'gta5' }
 
 author 'Rejox | rxscripts.xyz'
 description 'RX Notification System'
-version '1.0.0'
+version '1.0.1'
 repository 'RxNotify'
 github 'rxscripts'
 
